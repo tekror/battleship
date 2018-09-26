@@ -1,0 +1,147 @@
+#board {
+    width: 550px;
+    height: 600px;
+    float: left;
+}
+
+#board div {
+    width: 50px;
+    height: 50px;
+    outline: 1px solid;
+    float: left;
+}
+
+#board #player {
+  width: 550px;
+  height: 50px;
+  outline: 0px;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+#board .blank {
+  outline: 0px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+#board #victory {
+  width: 550px;
+  height: 600px;
+  float: left;
+  outline: 1px solid;
+  margin-left: 20px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 200px;
+}
+
+#hit {
+  background-color: red;
+}
+
+#miss {
+  background-color: blue;
+}
+
+#ship {
+  background-color: black;
+}
+
+#availableShips {
+  width: 250px;
+  height: 600px;
+  float: left;
+  outline: 1px solid;
+  margin-left: 20px;
+}
+
+#availableShips div {
+  width: 50px;
+  height: 50px;
+  outline: 1px solid;
+  float: left;
+}
+
+#availableShips .headingDiv {
+  width: 250px;
+  height: 50px;
+  outline: 0px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+#availableShips .blankDiv {
+  outline: 0px;
+}
+
+#availableShips #shipTwo {
+  width: 100px
+}
+
+#availableShips #shipThreeOne {
+  width: 150px
+}
+
+#availableShips #shipThreeTwo {
+  width: 150px
+}
+
+#availableShips #shipFour {
+  width: 200px
+}
+
+#availableShips #shipFive {
+  width: 250px
+}
+
+#availableShips .shipSelection {
+  background-color: black;
+  border: 1px
+}
+
+#availableShips .submit {
+  width: 250px;
+  height: 100px;
+  background-color: green;
+  outline: 0px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+#availableShips #radioDiv {
+  width: 250px;
+  height: 50px;
+  outline: 0px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+#availableShips #delete {
+  width: 250px;
+  height: 50px;
+  outline: 1px solid;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  font-weight: bold;
+  background-color: red
+}
+
+#attackStatus {
+  width: 250px;
+  height: 600px;
+  float: left;
+  margin-left: 20px;
+  outline: 1px solid;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 550px;
+}
